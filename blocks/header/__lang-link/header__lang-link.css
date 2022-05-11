@@ -4,7 +4,7 @@
 }
 
 .header__lang-link:not(:last-child) {
-  padding-right: 12px;
+  margin-right: 12px;
 }
 
 .header__lang-link:hover {
@@ -13,6 +13,6 @@ text-decoration: underline;
 
 @media screen and (max-width: 320px) {
   .header__lang-link:not(:last-child) {
-    padding-right: 14px;
+    margin-right: 14px;
   }
 }
