@@ -9,3 +9,24 @@
     padding: 0;
     border: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    width: 90.625%;
+    line-height: 1.04;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    width: 100%;
+    line-height: 1.05;
+    font-size: 40px;
+  }
+}
