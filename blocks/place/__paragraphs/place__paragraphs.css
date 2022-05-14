@@ -1,3 +1,20 @@
 .place__paragraphs {
-  grid-area: paragraph;
+  width: 49.2%;
+  display: grid;
+  grid: auto;
+  gap: 25px;
 }
+
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .place__paragraphs {
+    width: 90%;
+    margin: 32px auto 0;
+  }
+}
+

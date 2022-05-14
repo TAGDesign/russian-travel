@@ -1,5 +1,5 @@
 .place__paragraph {
-  line-height: 1.6;
+  line-height: 1.62;
   font-size: 18px;
   font-weight: 400;
   color:#ffffff;
@@ -8,6 +8,16 @@
   margin: 0;
 }
 
-.place__paragraph:nth-child(1) {
-  margin-bottom: 26px;
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    line-height: 1.62;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .place__paragraph {
+    line-height: 1.625;
+    width: 100%;
+  }
 }
