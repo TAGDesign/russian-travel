@@ -1,7 +1,7 @@
 .lead__title {
     text-align: center;
     margin: 0 auto;
-    width: 78.2%;
+    max-width: 78.2%;
     line-height: 1.05;
     font-size: 96px;
     font-weight: 900;
@@ -12,20 +12,20 @@
 
 @media screen and (max-width: 1024px) {
   .lead__title {
-    width: 90.625%;
+    max-width: 90.625%;
     line-height: 1.04;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 720px) {
   .lead__title {
-    width: 90%;
+    max-width: 90%;
     line-height: 1.05;
     font-size: 40px;
   }

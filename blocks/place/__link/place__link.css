@@ -1,5 +1,5 @@
 .place__link {
-  width: 70%;
+  max-width: 70%;
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -7,4 +7,9 @@
   color: #FFFFFF;
   padding: 0;
   border: 0;
+  transition: .4s;
+}
+
+.place__link:hover {
+  opacity: .8;
 }

@@ -1,5 +1,5 @@
 .place__url-heading {
-  width: 70%;
+  max-width: 70%;
   margin: 0 0 12px;
   text-transform: uppercase;
   letter-spacing: 2px;

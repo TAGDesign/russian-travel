@@ -3,10 +3,6 @@
   width: 39%;
   justify-content: space-between;
   margin: 0;
-  line-height: 1.625;
-  font-size: 16px;
-  font-weight: 400;
-  color:#ffffff;
   padding: 0;
   border: 0;
 }
@@ -20,7 +16,6 @@
 @media screen and (max-width: 768px) {
   .footer__nav {
     width: 64.4%;
-    line-height: 1;
   }
 }
 
@@ -29,7 +24,5 @@
     display: grid;
     grid-auto-rows: max-content;
     gap: 32px;
-    line-height: 1;
-    font-size: 24px;
   }
 }
