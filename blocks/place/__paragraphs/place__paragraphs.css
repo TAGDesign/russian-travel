@@ -1,7 +1,7 @@
 .place__paragraphs {
   width: 49.2%;
   display: grid;
-  grid: auto;
+  grid-auto-rows: max-content;
   gap: 25px;
 }
 
